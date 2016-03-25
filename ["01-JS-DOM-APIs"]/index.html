@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Topic 1</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	
+	<div id="container" class="text-center">
+
+		<div id="wrapper-left"><!-- Left Side -->
+
+			<section>
+
+				<h1>Topic 1</h1>
+
+				<h3>JavaScript, and DOM APIs</h3>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, repudiandae. Placeat deleniti amet pariatur atque doloribus ipsam nam quam eum tempora, cum dolorem doloremque eligendi laboriosam aut laborum obcaecati odit!</p>
+
+			</section>
+
+			<section id="hide">
+
+				<h1>Hello World!</h1>
+
+			</section>
+
+			<br>
+
+			<button class="button" onclick="getJoke()">Get your joke!</button>
+
+			<br>
+
+			<section id="joke"></section>
+
+			<section id="data-repositories">
+				
+				<h3>Javascript Repositories</h3>
+
+			</section>
+
+		</div>
+
+		<div id="wrapper-right"><!-- Right Side -->
+
+			<section id="gitHub">
+
+				<form action="#"><!-- onsubmit="userSearch()" -->
+					<input type="text" id="user-find" placeholder="Search" value="" onkeyup="userSearch()">
+				</form>
+				
+
+				<h3 class="pad-top">Repo Titles</h3>
+
+				<ul id="titlesGitHub"></ul>
+
+			</section>
+
+		</div>
+
+		<div class="clear-fix"></div> <!-- Fix floats divs -->
+
+	</div><!-- Container End-->
+	
+	<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
