@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Topic 0: img/audio/video/form</title>
+</head>
+<body>
+	
+	<section><!-- Image Section -->
+		<h1>Image</h1>
+		<img src="img/logo_globant.jpg" alt="Logo de Globant">
+	</section>
+
+	<hr>
+
+	<section><!-- Audio Section -->
+
+		<h1>Audio</h1>
+
+		<h3>Boomblefoot - Argentina</h3>
+
+		<audio controls>
+
+			<source src="audio/Bumblefoot-Argentina.mp3" type="audio/mpeg">
+			<source src="audio/Bumblefoot-Argentina.ogg" type="audio/ogg">
+
+			Your browser dont't support html5 audio 
+
+		</audio>
+		
+	</section>
+	
+	<hr>
+
+	<section><!-- Video Section -->
+
+		<h1>Video</h1>
+
+		<h3>Boomblefoot - Argentina</h3>
+
+		<video controls>
+			
+			<source src="video/Bumblefoot-Argentina.mp4" type="video/mp4">
+			<source src="video/Bumblefoot-Argentina.ogv" type="video/ogg">
+
+			Your browser dont't support html5 video
+
+		</video>
+
+	</section>
+
+	<hr>
+
+	<section><!-- Form Section -->
+
+		<h1>Form</h1>
+
+		<form action="#">
+	
+			<fieldset>
+
+			<legend>Complete this form</legend>
+
+			<div><!-- name -->
+
+				<p>
+					<label for="name">Name:</label>
+				</p>
+
+				<input type="text" id="name" placeholder="put your name here" required>
+
+			</div>
+			
+			<br>
+
+			<div><!-- last-name -->
+
+				<p>
+					<label for="last-name">Last Name:</label>
+				</p>
+
+				<input type="text" id="last-name" placeholder="put your last name here" required>
+
+			</div>
+
+			<br>
+
+			<div><!-- birthday -->
+
+				<p>
+					<label for="birthday">Birthday:</label>
+				</p>
+
+				<input type="text" id="birthday" placeholder="put your birthday" required>
+
+			</div>
+
+			<br>
+
+			<div><!-- email -->
+
+				<p>
+					<label for="email">Email:</label>
+				</p>
+
+				<input type="email" id="email" placeholder="put your emal here" required>
+
+			</div>
+			
+			<br>
+
+			<div><!-- sport select -->
+
+				<p>
+					<label for="select">Choose Your Favourite Sport:</label>
+				</p>
+
+				<select id="select">
+					<optgroup label="Sports">
+						<option value="football">Football</option>
+						<option value="bascket">Bascket</option>
+						<option value="soccer">Soccer</option>
+						<option value="hockey">Hockey</option>
+					</optgroup>					
+				</select>
+
+			</div>
+
+			<br>
+			
+			<div><!-- bio -->
+
+				<p>
+					<label for="bio">Bio:</label>
+				</p>
+
+				<textarea name="" id="bio" cols="30" rows="10" placeholder="Your bio, write something!"></textarea>
+
+			</div>
+
+			<br>
+			
+			<div><!-- form buttons -->
+
+				<button type="submit">submit</button>
+
+				<button type="reset">cancel</button>
+
+			</div>
+			
+			</fieldset>
+
+		</form>
+
+	</section>
+
+</body>
+</html>
