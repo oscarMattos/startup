@@ -1,0 +1,106 @@
+/* Media Queries */
+
+/* Small screens (default) */
+
+html { font-size: 100%; }
+
+.column {
+    float: left;
+    padding-left: .5rem;
+    padding-right: .5rem;
+ }
+
+/* Medium screens (640px) */
+
+@media (min-width: 40rem) { 
+
+  	html { font-size: 112%; }
+
+  	.container {
+  		margin: 0 auto;
+  		max-width: 60rem;
+  		width: 100%;
+	}
+	
+	.column {
+    	float: left;
+    	padding-left: .5rem;
+    	padding-right: .5rem;
+  	}
+  
+  	.column.full-md{ width: 100%; }
+
+  	.column.two-thirds-md { width: 66.7%; }
+
+  	.column.half-md { width: 50%; }
+
+  	.column.third-md { width: 33.3%; }
+
+  	.column.fourth-md { width: 25%; }
+
+  	.column.flow-opposite-md { float: right; }  
+
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+
+  	html { font-size: 120%; }
+
+  	.container {
+  		margin: 0 auto;
+  		max-width: 60rem;
+  		width: 100%;
+	}
+
+  	.column {
+    	float: left;
+    	padding-left: .5rem;
+    	padding-right: .5rem;
+  	}
+  
+  	.column.full-xl { width: 100%; }
+
+  	.column.two-thirds-xl { width: 66.7%; }
+
+  	.column.half-xl { width: 50%; }
+
+  	.column.third-xl { width: 33.3%; }
+
+  	.column.fourth-xl { width: 25%; }
+  	
+  	.column.flow-opposite-xl { float: right; } 
+
+}
+
+/* Container */ 
+
+.container {
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 100%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* Rows */
+.rows{
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+/* Clearfix for rows */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
